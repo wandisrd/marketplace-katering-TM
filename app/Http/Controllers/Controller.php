@@ -99,7 +99,7 @@ class Controller extends BaseController
             'type' => 1,
         ]);
 
-        return redirect('/')->with('success', 'Register berhasil, Silahkan Login');
+        return redirect('/login_merchant')->with('success', 'Register berhasil, Silahkan Login');
     }
 
     public function register_user_customer(Request $request){
@@ -120,7 +120,7 @@ class Controller extends BaseController
             'type' => 2,
         ]);
 
-        return redirect('/')->with('success', 'Register berhasil, Silahkan Login');
+        return redirect('/login_customer')->with('success', 'Register berhasil, Silahkan Login');
     }
 
     public function login_user(Request $request){

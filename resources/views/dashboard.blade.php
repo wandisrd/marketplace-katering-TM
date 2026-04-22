@@ -198,7 +198,7 @@
 
                 <div class="row">
 
-                    <input type="hidden" id="id">
+                    <input type="hidden" id="id" name="id">
 
                     <div class="col-md-6 mb-2">
                         <label>Nama Menu</label>
